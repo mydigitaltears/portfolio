@@ -1,0 +1,87 @@
+body {
+    font-family: arial;
+    margin-top: 50px;
+}
+
+.main {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 70px;
+}
+
+.gmaps video {
+    filter: saturate(300%);
+}
+
+.td video {
+    filter: saturate(150%);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: arial-black;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.youtube {
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 70%;
+}
+
+header {
+    display: table;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    background-color: white;
+    z-index: 999;
+}
+
+.navbar {
+    position:relative;
+    float: left;
+    width: 95%;
+}
+
+.info {
+    top: 0;
+    position: fixed;
+    float: right;
+    width:49%;
+    right: 20px;
+    text-align: right;
+}
+
+.info a {
+    font-family: arial;
+    font-size: small;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        margin-top: 100px;
+    }
+}
