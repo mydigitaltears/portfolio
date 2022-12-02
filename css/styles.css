@@ -23,7 +23,8 @@ h1 {
 a {
     text-decoration: none;
     color: black;
-    font-family: arial-black;
+    font-family: arial;
+    font-weight: bolder;
 }
 
 a:hover {
